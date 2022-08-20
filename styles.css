@@ -1,0 +1,117 @@
+html {
+    font-family: Lexend Mega;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+}
+
+/* HEADER -----------------------------------------------------> */
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+/* HERO ------------------------------------------------------> */
+
+#hero {
+    display: flex;
+    background-image: url(./images/Hero\ -\ Skyscraper.webp);
+    padding-top: 35px;
+    height: 300px;
+}
+
+.hero-text {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+/* MOBILITY PORTFOLIO ---------------------------------------------------------> */
+
+#our-mobility-portfolio {
+    padding-top: 70px;
+    display: block;
+    margin: auto;
+}
+
+.mobility-content {
+    display: block;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company img {
+    width: 200px;
+    padding: 10px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.company span {
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    min-width: 240px;
+}
+
+/* OUR TEAM -----------------------------------------------------------------------> */
+
+#our-team {
+    display: block;
+    padding-top: 75px;
+}
+
+.team-content {
+    background-image: url('./images/Team\ Background.webp');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.teammate {
+    color: white;
+    display: block;
+    flex-basis: 280px;
+    padding: 10px;
+}
+
+.teammate img {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* END OF TEAM SECTION -------------------------------------------------------------> */
+footer {
+    margin-top: 100px;
+}
